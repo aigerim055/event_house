@@ -77,20 +77,23 @@ header .container {
     padding: 5px;
 }
 
-.card {
+.sec1-card {
     position: relative;
     overflow: hidden;
 }
 
-.card-img-overlay {
-    position: absolute;
+
+.box:hover .card-overlay {
+    transition: 1.2s;
+    bottom: 0;
 }
 
 .span {
     display: block;
 }
 
-.desc {
+.card-overlay {
+    width: 100%;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -99,27 +102,19 @@ header .container {
     text-transform: uppercase;
     color: #FFFFFF;
     background: rgba(209, 169, 84, 0.9);
+    position: absolute;
     padding: 15px 20px;
     margin-top: 460px;
+    bottom: -200px;
 }
 
-.desc p {
+.card-overlay p {
     font-weight: 400;
     font-size: 14px;
     line-height: 135%;
 
     text-transform: none;
     
-}
-
-.card-img-overlay {
-    padding: 0;
-    border-radius: 0;
-}
-
-.card {
-    border-color: unset;
-    border-radius: unset;
 }
 
 .card-desc {
