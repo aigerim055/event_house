@@ -1,0 +1,275 @@
+@media (max-width: 1750px) {
+    .links a:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .burger {
+        margin-right: 200px;
+    }
+}
+
+@media (max-width: 1555px) {
+    .links a:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .burger {
+        margin-right: 150px;
+    }
+
+    .logo {
+        padding-left: 80px;
+        padding-right: 80px;
+        margin: 0;
+    }
+    .navbar .container {
+        justify-content: unset;
+    }
+}
+
+@media (max-width: 1470px) {
+    .logo {
+        padding-left: 70px;
+        padding-right: 80px;
+    }
+
+    .burger {
+        margin-right:40px;
+    }
+
+
+
+    .links a:last-child {
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .section1 img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .navbar .container {
+        justify-content: space-between;
+    }
+
+    .logo {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .section1 .col-4 {
+        width: 50%;
+    }
+
+    .card3 {
+        /*display: block;*/
+        /*margin: 0 auto;*/
+        display: none;
+    }
+}
+
+@media (max-width: 1130px) {
+    .container {
+        max-width: 900px;
+        padding: 20px;
+    }
+
+    .navbar .container {
+        max-width: 1000px;
+        justify-content: space-between;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .section2 img {
+        width: 900px;
+    }
+
+    .section1 .container {
+        padding: 30px;
+    }
+
+    .section3 {
+        padding-top: 259px;
+        padding-bottom: 50px;
+    }
+
+    .section4 {
+        padding-bottom: 120px;
+    }
+
+    .items p {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 920px) {
+    .section2 img  {
+        width: 850px;
+    }
+
+    .section8 .container {
+        padding: 0;
+    }
+
+    .images img:not(:first-child) {
+        margin-left: -9px;
+    }
+
+    .desc-p {
+        width: 100%;
+    }
+
+    .section2 img {
+        width: 100%;
+    }
+
+    .section4 h4 {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 770px) {
+    .section1 .col-4 {
+        width: 100%;
+    }
+
+    .section1 img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .card3 {
+        display: block;
+    }
+
+    .p {
+        width: unset;
+    }
+
+    .col-5 {
+        width: 100%;
+    }
+
+    .col-7 {
+        width: 100%;
+    }
+
+    .sec-3-col-4 {
+        text-align: center;
+    }
+
+    .section6 .col-6 {
+        width: 100%;
+    }
+
+    .item h6 {
+        margin-top: 30px;
+    }
+
+    .items {
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .items p {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    textarea {
+        max-width: 100%;
+    }
+
+    .form button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .section6 {
+        text-align: center;
+    }
+
+    .section4 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .buttons button:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .section6 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .svipe {
+        margin-top: 40px;
+        margin-bottom: 70px;
+    }
+
+    .section2 {
+        padding-bottom: 90px;
+    }
+
+    .section3 {
+        padding-top: 180px;
+    }
+
+    .foot {
+        display: unset;
+        text-align: center;
+    }
+
+    .section7 {
+        padding-top: 90px;
+        padding-bottom: 50px;
+    }
+
+    .section4 h4 {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .sec-2-title h2 {
+        font-weight: 300;
+        font-size: 30px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .cols {
+        text-align: center;
+    }
+
+    .box1 h4 {
+        font-size: 10px;
+        padding-top: 0;
+    }
+
+    .section4 p {
+        padding-top: 0;
+    }
+
+    .buttons button {
+        margin-bottom: 10px;
+    }
+
+    .section6 h2 {
+        font-size: 25px;
+    }
+
+    .section7 h2 {
+        font-size: 25px;
+    }
+}
+
