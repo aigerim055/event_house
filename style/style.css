@@ -426,18 +426,37 @@ header .container {
     max-width: 1920px;
 }
 
-/* .images img {
-    margin-left: -0px;
-} */
-
-.images {
-    display: flex;
-    flex-wrap: nowrap;
+.images img:not(:first-child) {
+    margin-left: -15px;
 }
+
+.images img {
+    width: 17%;
+}
+
+/*.images {*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*}*/
 
 .foot {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
     padding-bottom: 37px;
+}
+
+.foot h5 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    /* or 19px */
+
+
+    color: #000000;
+}
+
+textarea {
+    max-width: 540px;
+    /*max-height: 600px;*/
 }
